@@ -1,0 +1,367 @@
+@media only screen and (max-width: 844px) {
+  .vertical-center {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .wrapper {
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .Main-Links .index-links {
+    overflow: hidden;
+    position: relative;
+    left: 20px;
+  }
+  .Main-Links div {
+    margin: 16px 16px 0px;
+    /* width: calc(100% -32px) ; */
+    height: 100px;
+    background-image: url("/img/main/banner-blue.png");
+    border-radius: 25px;
+    float: left;
+  }
+  .Main-Links h3 {
+    font-family: IndieFlower;
+    color: #f8f6f6;
+    font-size: var(--font-size-1);
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: 2px 2px 8px #111;
+    line-height: 100px;
+    text-transform: uppercase;
+    position: relative;
+    right: 15px;
+    bottom: 10px;
+  }
+  .Main-Links .index-boxlink-Rectangle {
+    width: calc(50% - 60px) !important;
+  }
+  .Main-Links .index-boxlink-Rectangle:hover {
+    -webkit-transform: rotate(2deg);
+    transform: rotate(2deg);
+    /* transition: all 100ms ease-in-out; */
+  }
+  .Main-Links .index-boxlink-square {
+    width: calc(50% - 60px) !important;
+  }
+  .Main-Links .index-boxlink-square:hover {
+    -webkit-transform: rotate(2deg);
+    transform: rotate(2deg);
+    /* transition: all 100ms ease-in-out; */
+  }
+  .Main-Links .index-boxlink-Rectangle :hover {
+    color: #1abc9c;
+    font-size: var(--font-size-1);
+    border-radius: 25px;
+    /* transform: rotate(10deg); */
+  }
+  .Main-Links .index-boxlink-square :hover {
+    color: #1abc9c;
+    font-size: var(--font-size-1);
+    border-radius: 25px;
+    /* transform: rotate(10deg); */
+  }
+
+  section span {
+    cursor: pointer;
+  }
+  section .Info-1 {
+    position: relative;
+    right: 150px;
+  }
+  section .services {
+    padding-right: 80px !important;
+    cursor: pointer;
+  }
+  section .services:hover {
+    font-size: var(--font-size-2);
+    text-decoration: underline;
+    /* transform: rotate(10deg); */
+  }
+  section h3 {
+    margin-left: 40px;
+  }
+  section .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  section li {
+    padding: 2.5%;
+    position: relative;
+    bottom: 15px;
+    text-decoration: underline;
+  }
+  section .mw2 {
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 10%;
+    padding: 3%;
+    max-width: 80%;
+    max-height: 80%;
+    background-color: var(--Gray);
+    overflow: hidden;
+  }
+  section .mw2-Mods {
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 10%;
+    padding: 3%;
+    max-width: 80%;
+    max-height: 80%;
+    text-align: center;
+    color: #111;
+  }
+  section .mw2-Mods:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+  }
+  section .mw3 {
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 10%;
+    padding: 3%;
+    max-width: 80%;
+    max-height: 80%;
+    background-color: var(--Gray);
+    overflow: hidden;
+  }
+  section .mw3-Mods {
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 10%;
+    padding: 3%;
+    max-width: 80%;
+    max-height: 80%;
+    text-align: center;
+    color: #111;
+  }
+  section .mw3-Mods:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+  }
+  section .CoD-4 {
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 10%;
+    padding: 3%;
+    max-width: 70%;
+    max-height: 80%;
+    background-color: var(--Gray);
+    overflow: hidden;
+  }
+  section .cod4-Mods {
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 10%;
+    padding: 3%;
+    max-width: 80%;
+    max-height: 80%;
+    text-align: center;
+    color: #111;
+  }
+  section .cod4-Mods:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+  }
+  section .CoD-WaW {
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 10%;
+    padding: 3%;
+    max-width: 70%;
+    max-height: 80%;
+    background-color: var(--Gray);
+    overflow: hidden;
+  }
+  section .Waw-Mods {
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 10%;
+    padding: 3%;
+    max-width: 80%;
+    max-height: 80%;
+    text-align: center;
+    color: #111;
+  }
+  section .Waw-Mods:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+  }
+  section .CoD-Bo1 {
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 10%;
+    padding: 3%;
+    max-width: 70%;
+    max-height: 80%;
+    background-color: var(--Gray);
+    overflow: hidden;
+  }
+  section .bo1-Mods {
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 10%;
+    padding: 3%;
+    max-width: 80%;
+    max-height: 80%;
+    text-align: center;
+    color: #111;
+  }
+  section .bo1-Mods:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+  }
+  section .CoD-Bo2 {
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 10%;
+    padding: 3%;
+    max-width: 70%;
+    max-height: 80%;
+    background-color: var(--Gray);
+    overflow: hidden;
+  }
+  section .bo2-Mods {
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 10%;
+    padding: 3%;
+    max-width: 80%;
+    max-height: 80%;
+    text-align: center;
+    color: #111;
+  }
+  section .bo2-Mods:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+  }
+  section .CoD-Bo3 {
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 10%;
+    padding: 3%;
+    max-width: 70%;
+    max-height: 80%;
+    background-color: var(--Gray);
+    overflow: hidden;
+  }
+  section .CoD-Ghost {
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 10%;
+    padding: 3%;
+    max-width: 70%;
+    max-height: 80%;
+    background-color: var(--Gray);
+    overflow: hidden;
+  }
+  section .CoD-Aw {
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 10%;
+    padding: 3%;
+    max-width: 70%;
+    max-height: 80%;
+    background-color: var(--Gray);
+  }
+
+  .Info-1 p {
+    color: var(--Cool);
+    margin: 0;
+    padding: 0;
+  }
+  .Info-1 p a {
+    color: var(--primary);
+    text-decoration: none;
+  }
+  .Info-1 p a:hover {
+    text-decoration: underline;
+    color: var(--red);
+  }
+  .Info-1 .Dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .Info-1 .Dropdown .Dropdown-Content {
+    display: none flex;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 360%;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 20px;
+    z-index: 1;
+  }
+
+  .Dropdown:hover .Dropdown-Content {
+    display: block;
+    border-radius: 25px;
+  }
+
+  .Rgh-Files {
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    margin: 10%;
+    padding: 3%;
+    max-width: 80%;
+    max-height: 80%;
+    text-align: center;
+    color: #111;
+  }
+  .Rgh-Files:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+  }
+
+  footer {
+    width: calc(100% - 80px);
+    height: 200%;
+    padding: 0 40px 0;
+    overflow: hidden;
+  }
+  footer .footer {
+    padding: 40px 0;
+    padding-bottom: 25px;
+    position: relative;
+    left: 20px;
+    margin: 0 0 0 0;
+  }
+  footer .list {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  footer .list li {
+    display: inline-block;
+    padding: 0px 10px;
+  }
+  footer .list a {
+    color: #5f0202;
+    text-decoration: none;
+    font-size: var(--font-size-1);
+    font-weight: 600;
+    font-style: italic;
+    text-shadow: 2px 2px 8px #111;
+    line-height: 100px;
+    text-transform: uppercase;
+  }
+  footer .list a:hover {
+    background-color: rgba(221, 221, 221, 0.753);
+    font-size: var(--font-size-1);
+    border-radius: 25px;
+    text-decoration: underline;
+    /* transform: rotate(10deg); */
+  }
+}
